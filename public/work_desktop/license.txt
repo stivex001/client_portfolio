@@ -1,0 +1,11 @@
+Model Information:
+* title:	Work Desktop
+* source:	https://sketchfab.com/3d-models/work-desktop-f718cc9d8e4042b8804f98783f508e4b
+* author:	Igor_P10 (https://sketchfab.com/mrhohatun)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Work Desktop" (https://sketchfab.com/3d-models/work-desktop-f718cc9d8e4042b8804f98783f508e4b) by Igor_P10 (https://sketchfab.com/mrhohatun) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
