@@ -3,6 +3,7 @@
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
+import CanvasLoader from "./CanvasLoader";
 // import comuter from "../assets/work_desktop/scene.gltf"
 
 const Computer = () => {
@@ -22,7 +23,7 @@ const Computer = () => {
       <primitive
         object={computer.scene}
         scale={0.75}
-        position={[0, -3.25, -1.5]}
+        position={[0, -3.7, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -37,7 +38,7 @@ const ComputerCanvas = () => {
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense fallback={null}>
+      <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
